@@ -119,3 +119,28 @@ console.log(typeof diminuindo);
 console.log(typeof multiplicando);
 console.log(typeof dividindo);
 console.log(typeof modRestoDivisao);
+
+// template string e concatenção
+
+const nome1 = "Rodrigo";
+const nome2 = "Anderson";
+const nome3 = "Medeiros";
+const nome4 = "Bezerra";
+
+const nomeCompleto = nome1 + nome2 + nome3 + nome4;
+
+const nomeCompleto2 = nome1 +" "+ nome2 +" "+ nome3 +" "+ nome4
+
+const nomeCompleto3 = `Olá! Meu nome completo é ${nome1} ${nome2} ${nome3} ${nome4}`;
+
+console.log(nomeCompleto)
+console.log(nomeCompleto2);
+console.log(nomeCompleto3);
+
+// Crie uma variavel, coloque dentro de uma variavel usando template string e mostre o resultado no console
+
+let meuCarro = "fusca"
+
+let frase = `Eu tenho um ${meuCarro}`;
+
+console.log(frase);
