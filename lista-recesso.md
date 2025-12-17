@@ -14,7 +14,7 @@ Boas práticas de nomeação: camelCase, nomes descritivos, não usar palavras r
 Tipos de dados primitivos: String, Number, Boolean, Undefined, Null
 Tipos de dados complexos: Arrays e Objetos
 Operador typeof: Verificar o tipo de uma variável
-Operadores aritméticos: +, -, *, /, % (resto da divisão)
+Operadores aritméticos: +, -, \*, /, % (resto da divisão)
 Operadores relacionais: >, <, >=, <=, ==, ===, !=, !==
 Operadores lógicos: && (E), || (OU), ! (NÃO)
 Aula 12 - Funções em JavaScript
@@ -83,7 +83,7 @@ Questão 13 - Nível 1 ⭐
 Escreva um código usando switch que receba um número de 1 a 7 e exiba o dia da semana correspondente (1 = Domingo, 2 = Segunda, etc.).
 
 Questão 14 - Nível 1 ⭐
-Crie uma constante chamada PI com o valor 3.14159 e uma função que calcule a área de um círculo dado o raio (Área = PI * raio²).
+Crie uma constante chamada PI com o valor 3.14159 e uma função que calcule a área de um círculo dado o raio (Área = PI \* raio²).
 
 Questão 15 - Nível 1 ⭐
 Verifique se a string "JavaScript" é igual a "javascript" usando == e ===. Exiba os resultados e explique a diferença em um comentário.
@@ -217,7 +217,7 @@ Crie um sistema de reserva de hotel com:
 
 Um objeto hotel com quartos disponíveis (array de objetos com numero, tipo, precoDiaria, disponivel)
 Função para verificar disponibilidade por tipo
-Função para calcular valor da estadia (dias * precoDiaria)
+Função para calcular valor da estadia (dias \* precoDiaria)
 Função para aplicar desconto por temporada ("alta" +20%, "baixa" -15%)
 Função para fazer reserva (atualiza disponibilidade e retorna confirmação)
 Questão 52 - Nível 3 ⭐⭐⭐

@@ -140,3 +140,17 @@ switch (cor) {
     console.log("caiu no default");
     break;
 }
+
+let idade = 20;
+let status = idade >= 18 ? "Maior idade" : " Menor idade";
+console.log(status);
+
+function avaliarNota(nota) {
+  if (nota >= 7) {
+    return "aprovado";
+  } else if (nota >= 5) {
+    return "recuperacao";
+  } else {
+    return "reprovado";
+  }
+}
