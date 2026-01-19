@@ -154,3 +154,10 @@ function avaliarNota(nota) {
     return "reprovado";
   }
 }
+const aluno1 = avaliarNota(9);
+const aluno2 = avaliarNota(5);
+const aluno3 = avaliarNota(3.5);
+
+console.log(aluno1);
+console.log(aluno2);
+console.log(aluno3);
