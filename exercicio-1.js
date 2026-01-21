@@ -11,7 +11,7 @@ console.log(typeof casado);
 // Crie uma variável contendo seu nome usando aspas simples, outra usando aspas duplas e outra usando template string. Mostre todas no console.
 let primeiroNome = "Michael";
 let segundoNome = "Ferreira";
-let terceiroNome = Holanda;
+let terceiroNome = "Holanda";
 let nomeCompleto = `Meu nome completo é ${primeiroNome} ${segundoNome} ${terceiroNome}`;
 
 console.log(primeiroNome);
@@ -107,7 +107,14 @@ console.log(nums);
 console.log(nums[0] + [1] + [2]);
 
 // Crie um objeto representando uma pessoa com nome, idade e cidade. Exiba cada propriedade separadamente.
-
+const identidade = {
+  nome: "Carlos",
+  idade: 49,
+  cidade: "Fortaleza",
+};
+console.log(identidade.nome);
+console.log(identidade.idade);
+console.log(identidade.cidade);
 // Adicione a esse objeto uma nova propriedade chamada profissao. Mostre o objeto atualizado.
 
 // Delete a propriedade idade do objeto. Exiba o objeto novamente.
@@ -117,7 +124,14 @@ console.log(nums[0] + [1] + [2]);
 // Crie um array com 3 objetos representando alunos (nome e nota). Exiba apenas a nota do segundo aluno.
 
 // Crie um array com tipos misturados (string, number, boolean). Exiba o tipo de cada item.
-
+const colega = {
+  nome: "Sandra",
+  idade: 28,
+  casada: false,
+};
+console.log(colega.nome);
+console.log(colega.idade);
+console.log(colega.casada);
 // Use template string para exibir uma frase como: “Meu nome é X e tenho Y anos”, usando variáveis.
 
 const fraseCompleta = `Meu nome é ${nome} e tenho ${idade} anos`;
