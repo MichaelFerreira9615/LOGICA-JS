@@ -120,9 +120,30 @@ console.log(identidade.cidade);
 // Delete a propriedade idade do objeto. Exiba o objeto novamente.
 
 // Crie um objeto representando um produto (nome e preço). Mostre o tipo de cada propriedade usando typeof.
-
+const produto = [
+  {
+    nome: "quasar",
+    preço: 100,
+  },
+];
+console.log(typeof produto[0].nome);
+console.log(typeof produto[0].preço);
 // Crie um array com 3 objetos representando alunos (nome e nota). Exiba apenas a nota do segundo aluno.
-
+const alunos = [
+  {
+    nome: "Josue",
+    nota: 7.5,
+  },
+  {
+    nome: "Lucas",
+    nota: 5,
+  },
+  {
+    nome: "Gleydson",
+    nota: 6,
+  },
+];
+console.log(alunos[(1, 1)]);
 // Crie um array com tipos misturados (string, number, boolean). Exiba o tipo de cada item.
 const colega = {
   nome: "Sandra",
