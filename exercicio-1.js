@@ -117,7 +117,14 @@ console.log(identidade.idade);
 console.log(identidade.cidade);
 // Adicione a esse objeto uma nova propriedade chamada profissao. Mostre o objeto atualizado.
 
+identidade.profissão = "caminhoneiro";
+
+console.log(identidade);
 // Delete a propriedade idade do objeto. Exiba o objeto novamente.
+
+delete identidade.idade;
+
+console.log(identidade);
 
 // Crie um objeto representando um produto (nome e preço). Mostre o tipo de cada propriedade usando typeof.
 const produto = [
@@ -169,3 +176,19 @@ const saldoRestante = saldo1 - gasto1;
 console.log(saldoRestante);
 
 // Crie duas variáveis: senhaCorreta e senhaDigitada. Use operadores lógicos para verificar se a senha está correta.
+
+function verificaSenha(senha) {
+  if (senha === "mãe e pai") {
+    return "senha correta";
+  } else {
+    return "senha incorreta";
+  }
+}
+
+const testeSenha = verificaSenha("mae e pai");
+const testeSenha1 = verificaSenha("mãe e pai");
+const testeSenha2 = verificaSenha(208893);
+
+console.log(testeSenha);
+console.log(testeSenha1);
+console.log(testeSenha2);
